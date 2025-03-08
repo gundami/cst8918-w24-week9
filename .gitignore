@@ -1,0 +1,15 @@
+# Ignore Terraform state files and backup
+*.tfstate
+*.tfstate.backup
+
+# Ignore Terraform provider cache and logs
+.terraform/
+.terraform.lock.hcl
+
+# Ignore crash logs
+crash.log
+crash.*.log
+
+# Ignore plan output files
+*.tfplan
+node_modules/
